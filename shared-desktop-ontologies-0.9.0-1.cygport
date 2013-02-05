@@ -1,7 +1,0 @@
-inherit cmake
-
-DESCRIPTION="Shared Desktop Ontologies"
-HOMEPAGE="http://www.semanticdesktop.org/ontologies/"
-SRC_URI="mirror://sourceforge/oscaf/${P}.tar.bz2"
-
-DOCS="LICENSE.*"
