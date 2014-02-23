@@ -1,7 +1,7 @@
 inherit cmake
 
 NAME="shared-desktop-ontologies"
-VERSION=0.10.0
+VERSION=0.11.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Shared Desktop Ontologies"
@@ -10,6 +10,8 @@ the desktop in terms of vocabulary. It contains the well known core ontologies
 such as RDF and RDFS as well as the Nepomuk ontologies which are used by
 projects like KDE or Strigi."
 HOMEPAGE="http://www.semanticdesktop.org/ontologies/"
-SRC_URI="mirror://sourceforge/oscaf/${P}.tar.bz2"
+SRC_URI="mirror://sourceforge/oscaf/${NAME}-${VERSION}.tar.bz2"
+
+ARCH=noarch
 
 DOCS="LICENSE.*"
